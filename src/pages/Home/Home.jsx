@@ -1,7 +1,12 @@
+import Hero from "./Hero"
 
 const Home = () =>{
     return(
-        <h1>home</h1>
+
+    
+        <Hero />
+        
+   
     )
 }
 
