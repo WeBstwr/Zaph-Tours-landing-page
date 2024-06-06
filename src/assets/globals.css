@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -6,17 +6,16 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
-
-:root{
-    font-family: "Exo", sans-serif;
---primary-color: #FF9A00;
---secondary-color: #FFFF80;
+:root {
+  font-family: "Exo", sans-serif;
+  --primary-color: #ff9a00;
+  --secondary-color: #ffff80;
 }
 
-body{
-    background-color: white;
+body {
+  background-color: white;
 }
