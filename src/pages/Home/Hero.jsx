@@ -3,8 +3,6 @@ import "./home.css"
 const Hero = ()=>{
     return(
         <div className="hero-section">
-            <div className="background-img">
-            </div>
                 <div className="text-box">
                     <div className="title">
                         <h1>welcome to this page</h1>

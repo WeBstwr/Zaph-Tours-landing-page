@@ -3,11 +3,15 @@
     justify-content: center;
     padding: 1rem;
     text-transform: uppercase;
-    background-color: var(--first-color);
+    background-color: var(--secondary-color);
+}
+
+.header-top h1{
+    font-size: 3rem;
 }
 
 .header-bottom{
-    background-color: var(--second-color);
+    background-color: var(--secondary-color);
     padding: 5px;
 }
 
@@ -16,10 +20,17 @@
     justify-content: center;
     gap: 3rem;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .header-nav-item a{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: black;
+    transition: all 0.5s ease;
+}
+.header-nav-item a:hover{
+    background-color: var(--primary-color);
+    padding: 2px;
+    border-radius: 5px;
 }

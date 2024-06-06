@@ -6,13 +6,15 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 62.5%;
+}
+
 
 :root{
     font-family: "Exo", sans-serif;
-    --first-color: #ACE1AF;
-    --second-color: #B0EBB4;
-    --third-color: #BFF6C3;
-    --fourth-color: #E0FBE2;
+--primary-color: #FF9A00;
+--secondary-color: #FFFF80;
 }
 
 body{
