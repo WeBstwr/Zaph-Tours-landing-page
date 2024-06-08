@@ -1,13 +1,10 @@
-import Banner from "../../components/Banner/Banner"
+import Banner from "../../components/Banner/Banner";
 
-
-const About = () =>{
-    return(
-        <>
-        <Banner
-        mainText="about us"
-        />
-        <div className="about-section">
+const About = () => {
+  return (
+    <>
+      <Banner mainText="about us" />
+      <div className="about-section">
         <div className="about-text-box">
           <h3>learn more about us</h3>
           <div className="about-main-text">
@@ -28,9 +25,8 @@ const About = () =>{
           {/* <aboutIcons icon={} /> */}
         </div>
       </div>
+    </>
+  );
+};
 
-      </>
-    )
-}
-
-export default About
+export default About;

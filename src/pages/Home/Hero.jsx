@@ -1,4 +1,4 @@
-import heroBg from "../../assets/heroBg.jpg"
+import heroBg from "../../assets/heroBg.jpg";
 import "./home.css";
 
 // const aboutIcons = ({icon}) =>{
@@ -14,8 +14,6 @@ const Hero = () => {
   return (
     <>
       <div className="hero-section">
-        
-        
         <div className="text-box">
           <div className="title">
             <h1>welcome to zaph tours</h1>
@@ -23,8 +21,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-
     </>
   );
 };

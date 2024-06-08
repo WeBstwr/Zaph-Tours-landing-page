@@ -1,0 +1,29 @@
+.destination-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/destiBg.jpg);
+  background-size: cover;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dest-bg-text {
+  display: flex;
+  text-align: center;
+  grid-area: 4rem;
+  color: var(--primary-color);
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.dest-bg-text h2 {
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+.dest-bg-text p {
+  font-size: 2rem;
+}
