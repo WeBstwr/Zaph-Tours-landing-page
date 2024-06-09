@@ -1,6 +1,6 @@
 import Banner from "../../components/Banner/Banner";
 import mtKenya from "../../assets/mtKenya.jpg";
-import ruwe from "../../assets/ruwe.jpg"
+import ruwe from "../../assets/ruwe.jpg";
 
 const Featured = () => {
   return (

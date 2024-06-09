@@ -5,7 +5,7 @@ import Destinations from "./pages/Destinations/Destinations";
 import TripTypes from "./pages/TripTypes/TripTypes";
 import Contact from "./pages/Contact/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Footer from "./components/Footer/Footer"
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
