@@ -6,6 +6,7 @@
   padding: 3rem;
   text-align: center;
   border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 .banner h2 {

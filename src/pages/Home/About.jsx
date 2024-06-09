@@ -1,12 +1,18 @@
 import Banner from "../../components/Banner/Banner";
+import missionImage from "../../assets/mission.png";
+import vission from "../../assets/vission.png";
 
 const About = () => {
   return (
     <>
       <Banner mainText="about us" />
       <div className="about-section">
-        <div className="about-text-box">
+        <div className="about-title">
           <h3>learn more about us</h3>
+        </div>
+        <div className="about-container">
+          <img src={missionImage} alt="mission image" />
+
           <div className="about-main-text">
             <h4>mission</h4>
             <p>
@@ -15,14 +21,20 @@ const About = () => {
               cum, officiis totam. Perferendis natus incidunt quam, dolore totam
               provident illo accusantium dignissimos.
             </p>
-            <h4>vision</h4>
+          </div>
+        </div>
+
+        <div className="about-container">
+          <div className="about-main-text">
+            <h4>vission</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Veritatis, molestiae explicabo dolore sunt ad ducimus est vitae
-              sint atque soluta inventore fugit officiis reprehenderit iste!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Exercitationem repellat sed earum iure doloremque quod optio velit
+              cum, officiis totam. Perferendis natus incidunt quam, dolore totam
+              provident illo accusantium dignissimos.
             </p>
           </div>
-          {/* <aboutIcons icon={} /> */}
+          <img src={vission} alt="mission image" />
         </div>
       </div>
     </>

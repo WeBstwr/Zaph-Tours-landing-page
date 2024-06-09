@@ -1,7 +1,6 @@
 import logo from "../../assets/logo.png";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaXTwitter } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
-import { FaXTwitter } from "react-icons/fa6";
 import "./contact.css";
 
 const Socials = ({ icon, label }) => {

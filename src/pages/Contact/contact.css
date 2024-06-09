@@ -158,6 +158,10 @@
 .social-media-icons {
   display: flex;
   padding: 3rem;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .social-media h2 {
@@ -168,7 +172,7 @@
 
 .social-media-part {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
   font-size: 2rem;
 }
@@ -177,7 +181,6 @@
   --size: 3rem;
   height: var(--size);
   width: var(--size);
-  background-color: var(--first-color);
   display: grid;
   place-content: center;
   border-radius: 50%;
@@ -187,6 +190,9 @@
   height: var(--size);
   width: var(--size);
   fill: var(--primary-color);
+}
+.social-icon-wrapper:hover {
+  cursor: pointer;
 }
 
 .contact-social {
