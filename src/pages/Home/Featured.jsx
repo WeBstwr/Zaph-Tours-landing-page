@@ -1,6 +1,10 @@
 import Banner from "../../components/Banner/Banner";
 import mtKenya from "../../assets/mtKenya.jpg";
 import ruwe from "../../assets/ruwe.jpg";
+import nakuru from "../../assets/nakuru.jpg";
+import tsavoPark from "../../assets/tsavoPark.jpg";
+import naiPark from "../../assets/naiPark.jpg";
+import coast from "../../assets/coast.jpg";
 
 const Featured = () => {
   return (
@@ -33,7 +37,7 @@ const Featured = () => {
         </div>
         <div className="feature-container">
           <div className="feature-image">
-            <img src={mtKenya} alt="" />
+            <img src={nakuru} alt="Lake Nakuru" />
           </div>
           <div className="feature-text-box">
             <h3>lake nakuru</h3>
@@ -45,7 +49,7 @@ const Featured = () => {
         </div>
         <div className="feature-container">
           <div className="feature-image">
-            <img src={mtKenya} alt="" />
+            <img src={tsavoPark} alt="Tsavo Park" />
           </div>
           <div className="feature-text-box">
             <h3>tsavo national park</h3>
@@ -57,7 +61,7 @@ const Featured = () => {
         </div>
         <div className="feature-container">
           <div className="feature-image">
-            <img src={mtKenya} alt="" />
+            <img src={naiPark} alt="" />
           </div>
           <div className="feature-text-box">
             <h3>nairobi national park</h3>
@@ -69,7 +73,7 @@ const Featured = () => {
         </div>
         <div className="feature-container">
           <div className="feature-image">
-            <img src={mtKenya} alt="" />
+            <img src={coast} alt="coast" />
           </div>
           <div className="feature-text-box">
             <h3>coastal kenya</h3>
