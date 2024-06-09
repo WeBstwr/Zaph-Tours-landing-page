@@ -1,5 +1,8 @@
 import "./tripTypes.css";
 import honeymoon from "../../assets/honeymoon.jpg";
+import family from "../../assets/family.jpg"
+import adventure from "../../assets/adventure.jpg"
+import cultural from "../../assets/cultural.jpg"
 
 const TripTypes = () => {
   return (
@@ -37,14 +40,14 @@ const TripTypes = () => {
             <h3>family</h3>
           </div>
           <div className="trip-image">
-            <img src={honeymoon} alt="Honeymoon" />
+            <img src={family} alt="family" />
           </div>
           <div className="trip-text-box">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
               veniam.
             </p>
-            <h4>$5000</h4>
+            <h4>$4000</h4>
             <button>book</button>
           </div>
         </div>
@@ -54,14 +57,14 @@ const TripTypes = () => {
             <h3>adventure</h3>
           </div>
           <div className="trip-image">
-            <img src={honeymoon} alt="Honeymoon" />
+            <img src={adventure} alt="adventure" />
           </div>
           <div className="trip-text-box">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
               veniam.
             </p>
-            <h4>$5000</h4>
+            <h4>$3000</h4>
             <button>book</button>
           </div>
         </div>
@@ -71,14 +74,14 @@ const TripTypes = () => {
             <h3>cultural tours</h3>
           </div>
           <div className="trip-image">
-            <img src={honeymoon} alt="Honeymoon" />
+            <img src={cultural} alt="cultural" />
           </div>
           <div className="trip-text-box">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
               veniam.
             </p>
-            <h4>$5000</h4>
+            <h4>$4500</h4>
             <button>book</button>
           </div>
         </div>

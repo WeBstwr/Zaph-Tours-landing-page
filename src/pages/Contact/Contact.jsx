@@ -1,5 +1,18 @@
-import "./contact.css";
+
 import logo from "../../assets/logo.png";
+import { FaFacebook } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaXTwitter } from "react-icons/fa6";
+import "./contact.css";
+
+const Socials = ({ icon, label }) => {
+  return (
+    <div className="social-media-part">
+      <div className="social-icon-wrapper">{icon}</div>
+      {label}
+    </div>
+  );
+};
 
 const Contact = () => {
   return (
@@ -14,11 +27,15 @@ const Contact = () => {
         <div className="contact-info">
           <div className="contacts">
             <h2>Get in Touch</h2>
+            <p><b>email: </b>zaphtours@info.com</p>
+            <p><b>contact: </b>0221565274</p>
+            <p><b>address: </b>zaph tours, along enterprise road in nairobi kenya</p>
           </div>
-          <div className="contact-form-sectiom">
+          <div className="contact-form-section">
             <form className="contact-form">
+              <h2>register</h2>
               <div className="contact-form-grp">
-                <label for="name">name:</label>
+                <label htmlFor="name">name:</label>
                 <input
                   type="text"
                   id="name"
@@ -27,7 +44,7 @@ const Contact = () => {
                 />
               </div>
               <div className="contact-form-grp">
-                <label for="email">email:</label>
+                <label htmlFor="email">email:</label>
                 <input
                   type="text"
                   id="email"
@@ -36,12 +53,13 @@ const Contact = () => {
                 />
               </div>
               <div className="contact-form-grp">
-                <label for="name">Name:</label>
+                <label htmlFor="name">message:</label>
                 <textarea
-                  id="message"
-                  className="contact-form-input"
+                  id="message" placeholder="message"
+                  className="message-text-area"
                 ></textarea>
               </div>
+              <button>submit</button>
             </form>
           </div>
         </div>
@@ -54,10 +72,26 @@ const Contact = () => {
             loading="lazy"
           ></iframe>
           <div className="open-hours">
-            <h2>Open Hours</h2>
-            <h2>Open Hours</h2>
-            <h2>Open Hours</h2>
+            <h2>open hours</h2>
+            <p> <b>monday - friday: </b>8am - 5pm</p>
+            <p> <b>saturday: </b>9am - 2pm</p>
+            <p> <b>sunday: </b>closed</p>
           </div>
+        </div>
+
+        <div className="social-media">
+          <h2>follow us</h2>
+          <div className="contact-social">
+            <socials />
+          </div>
+          <div className="social-media-icons">
+
+          
+            <Socials icon={<FaFacebook />} label={"zaphTour"} />
+            <Socials icon={<AiFillInstagram />} label={"zaphTour"} />
+            <Socials icon={<FaXTwitter />} label={"zaphTour"} />
+            </div>
+          
         </div>
       </section>
     </>
