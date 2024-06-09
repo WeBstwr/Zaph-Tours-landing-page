@@ -1,5 +1,6 @@
 import Banner from "../../components/Banner/Banner";
 import mtKenya from "../../assets/mtKenya.jpg";
+import ruwe from "../../assets/ruwe.jpg"
 
 const Featured = () => {
   return (
@@ -20,7 +21,7 @@ const Featured = () => {
         </div>
         <div className="feature-container">
           <div className="feature-image">
-            <img src={mtKenya} alt="" />
+            <img src={ruwe} alt="ruwenzori" />
           </div>
           <div className="feature-text-box">
             <h3>mt. ruwenzori</h3>
