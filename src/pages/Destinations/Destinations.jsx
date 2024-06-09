@@ -1,5 +1,10 @@
 import "./destinations.css";
 import diani from "../../assets/diani.jpg";
+import wildbeast from "../../assets/wildbeast.jpg";
+import falls from "../../assets/fourteenFalls.jpg";
+import longonot from "../../assets/longonot.jpg";
+import hells from "../../assets/hellsGate.jpg";
+import tsavo from "../../assets/tsavo.jpg";
 
 const Destinations = () => {
   return (
@@ -18,7 +23,7 @@ const Destinations = () => {
         <div className="destinations-container 1 (even)">
           <img src={diani} alt="diani" />
           <div className="destinations-text-box">
-            <h3>diani, kenya</h3>
+            <h3>diani, mombasa</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
               laudantium!
@@ -40,9 +45,9 @@ const Destinations = () => {
         </div>
 
         <div className="destinations-container">
-          <img src={diani} alt="diani" />
+          <img src={wildbeast} alt="diani" />
           <div className="destinations-text-box">
-            <h3>diani, kenya</h3>
+            <h3>maasai mara, kenya</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
               laudantium!
@@ -64,9 +69,9 @@ const Destinations = () => {
         </div>
 
         <div className="destinations-container">
-          <img src={diani} alt="diani" />
+          <img src={falls} alt="fourteen falls" />
           <div className="destinations-text-box">
-            <h3>diani, kenya</h3>
+            <h3>the fourteen falls</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
               laudantium!
@@ -88,9 +93,9 @@ const Destinations = () => {
         </div>
 
         <div className="destinations-container">
-          <img src={diani} alt="diani" />
+          <img src={longonot} alt="Mt. longonot" />
           <div className="destinations-text-box">
-            <h3>diani, kenya</h3>
+            <h3>mount longonot</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
               laudantium!
@@ -112,9 +117,9 @@ const Destinations = () => {
         </div>
 
         <div className="destinations-container">
-          <img src={diani} alt="diani" />
+          <img src={hells} alt="hells gate" />
           <div className="destinations-text-box">
-            <h3>diani, kenya</h3>
+            <h3>hells gate, nakuru</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
               laudantium!
@@ -136,9 +141,9 @@ const Destinations = () => {
         </div>
 
         <div className="destinations-container">
-          <img src={diani} alt="diani" />
+          <img src={tsavo} alt="tsavo" />
           <div className="destinations-text-box">
-            <h3>diani, kenya</h3>
+            <h3>tsavo national park</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
               laudantium!
