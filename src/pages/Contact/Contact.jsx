@@ -1,4 +1,3 @@
-
 import logo from "../../assets/logo.png";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
@@ -27,9 +26,15 @@ const Contact = () => {
         <div className="contact-info">
           <div className="contacts">
             <h2>Get in Touch</h2>
-            <p><b>email: </b>zaphtours@info.com</p>
-            <p><b>contact: </b>0221565274</p>
-            <p><b>address: </b>zaph tours, along enterprise road in nairobi kenya</p>
+            <p>
+              <b>email: </b>zaphtours@info.com
+            </p>
+            <p>
+              <b>contact: </b>0221565274
+            </p>
+            <p>
+              <b>address: </b>zaph tours, along enterprise road in nairobi kenya
+            </p>
           </div>
           <div className="contact-form-section">
             <form className="contact-form">
@@ -55,7 +60,8 @@ const Contact = () => {
               <div className="contact-form-grp">
                 <label htmlFor="name">message:</label>
                 <textarea
-                  id="message" placeholder="message"
+                  id="message"
+                  placeholder="message"
                   className="message-text-area"
                 ></textarea>
               </div>
@@ -73,9 +79,18 @@ const Contact = () => {
           ></iframe>
           <div className="open-hours">
             <h2>open hours</h2>
-            <p> <b>monday - friday: </b>8am - 5pm</p>
-            <p> <b>saturday: </b>9am - 2pm</p>
-            <p> <b>sunday: </b>closed</p>
+            <p>
+              {" "}
+              <b>monday - friday: </b>8am - 5pm
+            </p>
+            <p>
+              {" "}
+              <b>saturday: </b>9am - 2pm
+            </p>
+            <p>
+              {" "}
+              <b>sunday: </b>closed
+            </p>
           </div>
         </div>
 
@@ -85,13 +100,10 @@ const Contact = () => {
             <socials />
           </div>
           <div className="social-media-icons">
-
-          
             <Socials icon={<FaFacebook />} label={"zaphTour"} />
             <Socials icon={<AiFillInstagram />} label={"zaphTour"} />
             <Socials icon={<FaXTwitter />} label={"zaphTour"} />
-            </div>
-          
+          </div>
         </div>
       </section>
     </>

@@ -1,8 +1,14 @@
 import "./tripTypes.css";
 import honeymoon from "../../assets/honeymoon.jpg";
-import family from "../../assets/family.jpg"
-import adventure from "../../assets/adventure.jpg"
-import cultural from "../../assets/cultural.jpg"
+import family from "../../assets/family.jpg";
+import adventure from "../../assets/adventure.jpg";
+import cultural from "../../assets/cultural.jpg";
+import wildlife from "../../assets/wildlife.jpg";
+import eco from "../../assets/eco.jpg";
+import vacation from "../../assets/vacation.jpg";
+import beach from "../../assets/beachH.jpg";
+import wellnees from "../../assets/wellness.jpg";
+import culnary from "../../assets/culnarry.jpg";
 
 const TripTypes = () => {
   return (
@@ -91,14 +97,14 @@ const TripTypes = () => {
             <h3>wildlife safaris</h3>
           </div>
           <div className="trip-image">
-            <img src={honeymoon} alt="Honeymoon" />
+            <img src={wildlife} alt="wildlife" />
           </div>
           <div className="trip-text-box">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
               veniam.
             </p>
-            <h4>$5000</h4>
+            <h4>$1000</h4>
             <button>book</button>
           </div>
         </div>
@@ -108,14 +114,14 @@ const TripTypes = () => {
             <h3>eco-tours</h3>
           </div>
           <div className="trip-image">
-            <img src={honeymoon} alt="Honeymoon" />
+            <img src={eco} alt="eco-tours" />
           </div>
           <div className="trip-text-box">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
               veniam.
             </p>
-            <h4>$5000</h4>
+            <h4>$2000</h4>
             <button>book</button>
           </div>
         </div>
@@ -125,14 +131,14 @@ const TripTypes = () => {
             <h3>luxury vacations</h3>
           </div>
           <div className="trip-image">
-            <img src={honeymoon} alt="Honeymoon" />
+            <img src={vacation} alt="vacation" />
           </div>
           <div className="trip-text-box">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
               veniam.
             </p>
-            <h4>$5000</h4>
+            <h4>$6000</h4>
             <button>book</button>
           </div>
         </div>
@@ -142,14 +148,14 @@ const TripTypes = () => {
             <h3>beach holidays</h3>
           </div>
           <div className="trip-image">
-            <img src={honeymoon} alt="Honeymoon" />
+            <img src={beach} alt="beach" />
           </div>
           <div className="trip-text-box">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
               veniam.
             </p>
-            <h4>$5000</h4>
+            <h4>$900</h4>
             <button>book</button>
           </div>
         </div>
@@ -159,14 +165,14 @@ const TripTypes = () => {
             <h3>wellness retreats</h3>
           </div>
           <div className="trip-image">
-            <img src={honeymoon} alt="Honeymoon" />
+            <img src={wellnees} alt="wellness" />
           </div>
           <div className="trip-text-box">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
               veniam.
             </p>
-            <h4>$5000</h4>
+            <h4>$1500</h4>
             <button>book</button>
           </div>
         </div>
@@ -176,14 +182,14 @@ const TripTypes = () => {
             <h3>culnary vacations</h3>
           </div>
           <div className="trip-image">
-            <img src={honeymoon} alt="Honeymoon" />
+            <img src={culnary} alt="culnarry" />
           </div>
           <div className="trip-text-box">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
               veniam.
             </p>
-            <h4>$5000</h4>
+            <h4>$3000</h4>
             <button>book</button>
           </div>
         </div>
